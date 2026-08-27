@@ -31,8 +31,9 @@ final class LibraryViewModel {
     }
 
     func loadFavorites(modelContext: ModelContext) {
-        let descriptor = FetchDescriptor<Song>(predicate: #Predicate { $0.isFavorite }, sortBy: [SortDescriptor(\.dateAdded, order: .reverse)])
-        favorites = (try? modelContext.fetch(descriptor)) ?? []
+        let descriptor = FetchDescriptor<Song>(sortBy: [SortDescriptor(\.dateAdded, order: .reverse)])
+        let allSongs = (try? modelContext.fetch(descriptor)) ?? []
+        favorites = allSongs.filter { $0.isFavorite }
     }
 
     func toggleFavorite(_ song: Song, modelContext: ModelContext) {

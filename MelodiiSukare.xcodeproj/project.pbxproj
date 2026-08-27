@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* MelodiiSukareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000001; };
+		AA000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000002; };
+		AA000003 /* YouTubeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000003; };
+		AA000004 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000004; };
+		AA000005 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000005; };
+		AA000006 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000006; };
+		AA000007 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000007; };
+		AA000008 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000008; };
+		AA000009 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000009; };
+		AA000010 /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000010; };
+		AA000011 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000011; };
+		AA000012 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000012; };
+		AA000013 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000013; };
+		AA000014 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000014; };
+		AA000015 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000015; };
+		AA000016 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000016; };
+		AA000017 /* FullPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000017; };
+		AA000018 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000018; };
+		AA000019 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000019; };
+		AA000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB000030; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB000001 /* MelodiiSukareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodiiSukareApp.swift; sourceTree = "<group>"; };
+		BB000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BB000003 /* YouTubeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeService.swift; sourceTree = "<group>"; };
+		BB000004 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		BB000005 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		BB000006 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		BB000007 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		BB000008 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		BB000009 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BB000010 /* SearchResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
+		BB000011 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		BB000012 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		BB000013 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		BB000014 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		BB000015 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		BB000016 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		BB000017 /* FullPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlayerView.swift; sourceTree = "<group>"; };
+		BB000018 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		BB000019 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BB000020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB000030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB000099 /* MelodiiSukare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelodiiSukare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD000001 /* Root */ = {
+			isa = PBXGroup;
+			children = (DD000010, DD000099);
+			sourceTree = "<group>";
+		};
+		DD000010 /* MelodiiSukare */ = {
+			isa = PBXGroup;
+			children = (DD000011, BB000030, DD000012, DD000013, DD000014, DD000015, DD000018, DD000019);
+			path = MelodiiSukare;
+			sourceTree = "<group>";
+		};
+		DD000011 /* App */ = {
+			isa = PBXGroup;
+			children = (BB000001);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DD000012 /* Models */ = {
+			isa = PBXGroup;
+			children = (BB000002);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD000013 /* Services */ = {
+			isa = PBXGroup;
+			children = (BB000003, BB000004, BB000005);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD000014 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (BB000006, BB000007, BB000008);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD000015 /* Views */ = {
+			isa = PBXGroup;
+			children = (DD000016, DD000017, DD000020, DD000021);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD000016 /* Search */ = {
+			isa = PBXGroup;
+			children = (BB000009, BB000010);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DD000017 /* Library */ = {
+			isa = PBXGroup;
+			children = (BB000011, BB000012, BB000013, BB000014, BB000015);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DD000018 /* Components */ = {
+			isa = PBXGroup;
+			children = (BB000018);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DD000019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (BB000020);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD000020 /* Player */ = {
+			isa = PBXGroup;
+			children = (BB000016, BB000017);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		DD000021 /* Settings */ = {
+			isa = PBXGroup;
+			children = (BB000019);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DD000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (BB000099);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE000001 /* MelodiiSukare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF000001;
+			buildPhases = (FF000010, CC000001, FF000011);
+			buildRules = ();
+			dependencies = ();
+			name = MelodiiSukare;
+			productName = MelodiiSukare;
+			productReference = BB000099;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = FF000002;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = DD000001;
+			productRefGroup = DD000099;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (EE000001);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF000011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (AA000020);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001, AA000002, AA000003, AA000004, AA000005,
+				AA000006, AA000007, AA000008, AA000009, AA000010,
+				AA000011, AA000012, AA000013, AA000014, AA000015,
+				AA000016, AA000017, AA000018, AA000019,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FF000030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MelodiiSukare/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Melodii sukare";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodiisukare.app;
+				PRODUCT_NAME = MelodiiSukare;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF000031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MelodiiSukare/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Melodii sukare";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melodiisukare.app;
+				PRODUCT_NAME = MelodiiSukare;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF000001 /* Build configuration list for PBXNativeTarget "MelodiiSukare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FF000030, FF000031);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF000002 /* Build configuration list for PBXProject "MelodiiSukare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FF000020, FF000021);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = FF000000;
+}

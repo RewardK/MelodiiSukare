@@ -3,8 +3,6 @@ import SwiftData
 
 struct LibraryView: View {
     @Environment(\.modelContext) private var modelContext
-    @Environment(AudioPlayerManager.self) private var audioManager
-    @Environment(DownloadManager.self) private var downloadManager
     @State private var viewModel = LibraryViewModel()
     @State private var showNewPlaylistAlert = false
     @State private var newPlaylistName = ""

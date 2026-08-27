@@ -107,7 +107,6 @@ final class AudioPlayerManager {
         isPlaying = true
         play()
 
-        let historyEntry = HistoryEntry(song: song)
         song.lastPlayed = .now
 
         updateNowPlaying()
@@ -211,7 +210,7 @@ final class AudioPlayerManager {
         info[MPMediaItemPropertyTitle] = song.title
         info[MPMediaItemPropertyArtist] = song.artist
         info[MPMediaItemPropertyPlaybackDuration] = duration
-        info[MPMediaItemPropertyElapsedPlaybackTime] = currentTime
+        info[MPNowPlayingInfoPropertyElapsedPlaybackTime] = currentTime
         info[MPNowPlayingInfoPropertyPlaybackRate] = isPlaying ? 1.0 : 0.0
         info[MPNowPlayingInfoPropertyPlaybackProgress] = playbackProgress
 

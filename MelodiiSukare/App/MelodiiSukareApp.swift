@@ -21,24 +21,27 @@ struct ContentView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
-            Tab("Search", systemImage: "magnifyingglass") {
-                NavigationStack {
-                    SearchView()
-                }
+            NavigationStack {
+                SearchView()
+            }
+            .tabItem {
+                Label("Search", systemImage: "magnifyingglass")
             }
             .tag(0)
 
-            Tab("Library", systemImage: "music.note.list") {
-                NavigationStack {
-                    LibraryView()
-                }
+            NavigationStack {
+                LibraryView()
+            }
+            .tabItem {
+                Label("Library", systemImage: "music.note.list")
             }
             .tag(1)
 
-            Tab("Settings", systemImage: "gearshape") {
-                NavigationStack {
-                    SettingsView()
-                }
+            NavigationStack {
+                SettingsView()
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gearshape")
             }
             .tag(2)
         }

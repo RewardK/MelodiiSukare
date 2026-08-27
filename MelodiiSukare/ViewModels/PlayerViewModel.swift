@@ -26,7 +26,7 @@ final class PlayerViewModel {
                 modelContext: modelContext
             )
 
-            let descriptor = FetchDescriptor<Song>(predicate: #Predicate { $0.youtubeVideoID == result.videoID })
+            let descriptor = FetchDescriptor<Song>(predicate: NSPredicate(format: "youtubeVideoID == %@", result.videoID))
             if let song = try? modelContext.fetch(descriptor).first {
                 audioManager.playSong(song)
             }
